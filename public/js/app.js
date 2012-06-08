@@ -1,3 +1,5 @@
+var runButtonTxt = "Run";
+
 function selectTab(id) {
   $("#tabs").data("mytabs").tabs("select", id);
 }
@@ -82,7 +84,7 @@ function setRunButtonToStop() {
 }
 
 function setStopButtonToRun() {
-  $("#run").html('Run');
+  $("#run").html(runButtonTxt);
 }
 
 function clearOutputs() {
@@ -222,6 +224,7 @@ function loadLanguage(lang){
 }
 
 function localizeUI(data) {
+  runButtonTxt = data['buttons']['run'];
   $("#run").html(data['buttons']['run']);
   $("#clear").html(data['buttons']['clear']);
   $("#open").html(data['buttons']['open']);
@@ -247,7 +250,7 @@ $(document).ready(function() {
   $("#tabs").data("mytabs", tabs);
 
   $("#run").click(function(e) {
-    if ($("#run").html() == 'Run') {
+    if ($("#run").html() == runButtonTxt) {
       resizeCanvas();
       startRun(getEditor());
     } else {
