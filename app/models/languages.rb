@@ -1,6 +1,6 @@
 module KidsRuby
   class Language
-    LANGUAGES_SUPPORTED = %w{en}
+    LANGUAGES_SUPPORTED = %w{en ja}
 
     class << self
       def system
