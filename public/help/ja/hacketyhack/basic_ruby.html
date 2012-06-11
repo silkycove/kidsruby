@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <head>
-  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-  <title>Basic Ruby</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>Basic Ruby</title><!-- Load styles --><!-- Load js -->
 
-  <!-- Load styles -->
+  
   <link rel="stylesheet" href="../../../css/blitzer/jquery-ui-1.8.16.custom.css" type="text/css" media="screen" title="style" charset="utf-8">
   <link rel="stylesheet" href="../../../css/master.css" type="text/css" media="screen" title="style" charset="utf-8">
   <link rel="stylesheet" href="../../../css/jquery.snippet.min.css" type="text/css" media="screen" title="style" charset="utf-8">
 
-  <!-- Load js -->
+  
   <script type="text/javascript" src="../../../js/jquery/jquery-1.6.2.min.js"></script>
   <script type="text/javascript" src="../../../js/jquery/jquery-ui-1.8.16.custom.min.js"></script>
   <script type="text/javascript" src="../../../js/jquery/jquery.snippet.min.js"></script>
@@ -41,13 +41,11 @@
 <body class="lesson-set">
   <h1>Basic Ruby</h1>
   <nav id="top">
-    <a href="#back" class="prev-lesson">&laquo; Back</a>
-    <a href="index.html">Back to Lessons</a>
-    <a href="#next" class="next-lesson">Next &raquo;</a>
+    <a href="#back" class="prev-lesson">«前へ</a> <a href="index.html">一覧へ戻る</a> <a href="#next" class="next-lesson">次へ »</a>
   </nav>
 
 
-  <article class="lesson"><h1>Hello there!</h1>
+  <article class="lesson"><h1>やあ!</h1>
     <section class="page"><h1>Let's get started</h1>
       <p>Welcome to your first lesson in Ruby! You're going to have a blast.</p>
       <p>Ruby is a great programming language that you can use to make all kinds of things with. Let's get going!</p>
@@ -88,14 +86,14 @@
 
 
   <article class="lesson"><h1>Letters, words, and sentences</h1>
-    <section class="page"><h1> Strings </h1>
+    <section class="page"><h1>  Strings  </h1>
       <p>Okay! Now that you've got that verb bit down, it's time to learn about <em>String</em>s. Strings are what we call a bunch of words between a pair of " characters. The "s are used to tell the computer what words you actually want to say. Let's think about our example:</p>
       <pre id="code-2-1-1" class="sampleCode">Code automatically inserted here...</pre>
       <p>If you didn't have the "s, the computer wouldn't know which words were methods and which ones were part of the string! And consider this:</p>
       <pre id="code-2-3" class="sampleCode">Code automatically inserted here...</pre>
       <p>Without making all of those words a string, how would Ruby know that the second alert was some text you wanted to say, rather than another alert box?</p>
     </section>
-    <section class="page"><h1>Adding Strings </h1>
+    <section class="page"><h1>Adding Strings  </h1>
       <p>Now, if you want to put two bits of strings together, you can use the <code>+</code> character to do it. Try typing this:</p>
       <pre id="code-2-4" class="sampleCode">Code automatically inserted here...</pre>
       <p>Same thing! The <code>+</code> sticks the two strings together. This will end up being super useful later!</p>
@@ -104,13 +102,13 @@
 
 
   <article class="lesson"><h1>Numbers and Math</h1>
-    <section class="page"><h1> Numbers </h1>
+    <section class="page"><h1>  Numbers  </h1>
       <p>You can just use numbers, and Ruby understands them:</p>
       <pre id="code-2-5" class="sampleCode">Code automatically inserted here...</pre>
       <p>You can even use numbers that have a decimal point in them:</p>
       <pre id="code-2-6" class="sampleCode">Code automatically inserted here...</pre>
     </section>
-    <section class="page"><h1> Basic Math </h1>
+    <section class="page"><h1>  Basic Math  </h1>
       <p>You can also do math with numbers, and it'll work out pretty well:</p>
       <pre id="code-2-7" class="sampleCode">Code automatically inserted here...</pre>
       <p>But if you try this, nothing happens:</p>
@@ -118,7 +116,7 @@
       <p>This is kind of fun and silly, though:</p>
       <pre id="code-2-9" class="sampleCode">Code automatically inserted here...</pre>
     </section>
-    <section class="page"><h1>Errors </h1>
+    <section class="page"><h1>Errors  </h1>
       <p>You know how nothing happened when you hit the Run button earlier? That was because there was an error. You can see any errors in the 'Output' tab.</p>
       <p>The error that results from <code>alert "hey" + 2</code> is:</p>
       <code>can't convert Fixnum into String</code>
@@ -128,9 +126,9 @@
 
 
   <article class="lesson"><h1>A few words about types</h1>
-    <section class="page"><h1> Why's it do that? </h1>
+    <section class="page"><h1>  Why's it do that?  </h1>
       <p>Each part of a Ruby program is an <code>Object</code>. Right now, all you need to know about <code>Object</code>s is that it's sort of like saying a thing. Your program is made up of a bunch of <code>Object</code>s working together.</p>
-      <p>We'll learn more about <code>Object</code>s in a future lesson, but there is one thing I'll tell you: <code>Object</code>s have a 'type.' This lets Ruby know what kind of <code>Object</code> it is. </p>
+      <p>We'll learn more about <code>Object</code>s in a future lesson, but there is one thing I'll tell you: <code>Object</code>s have a 'type.' This lets Ruby know what kind of <code>Object</code> it is.  </p>
     </section>
     <section class="page"><h1>Adding numbers to words</h1>
       <p>That's why</p>
@@ -147,13 +145,13 @@
 
 
   <article class="lesson"><h1>Variables</h1>
-    <section class="page"><h1> They're like boxes </h1>
+    <section class="page"><h1>  They're like boxes  </h1>
       <p>What happens if we want to keep something around? Most programs are not one line, I assure you. You can use a <em>variable</em> to hold a value and use it later. It's like a box that you put things in.</p>
       <p>Let's try one out:</p>
       <pre id="code-2-12" class="sampleCode">Code automatically inserted here...</pre>
       <p>Give that a run.</p>
     </section>
-    <section class="page"><h1> Assignment </h1>
+    <section class="page"><h1>  Assignment  </h1>
       <p>Cool stuff! We used an <code>=</code> to <em>assign</em> the <code>String</code> "Hello, world!" into the variable <code>message</code>. We then passed that <code>message</code> to the <code>alert</code> method.</p>
       <p>As you can see, we can use variables in place of another value. Try this:</p>
       <pre id="code-2-13" class="sampleCode">Code automatically inserted here...</pre>
@@ -172,7 +170,7 @@
 
 
   <article class="lesson"><h1>Basic flow control</h1>
-    <section class="page"><h1> if... </h1>
+    <section class="page"><h1>  if...  </h1>
       <p>Remember back to that Beginning Programming lesson... we talked about how programs are one big list, that the computer follows in order.</p>
       <p>Well, guess what? We can actually change this order by using certain bits of code. Compare these two programs:</p>
       <pre id="code-2-15" class="sampleCode">Code automatically inserted here...</pre>
@@ -188,14 +186,14 @@
 
 
   <article class="lesson"><h1>Example: a guessing game</h1>
-    <section class="page"><h1> Guess! </h1>
+    <section class="page"><h1>  Guess!  </h1>
       <p>Let's put this all together:</p>
       <pre id="code-2-17" class="sampleCode">Code automatically inserted here...</pre>
     </section>
   </article>
 
   <article class="lesson"><h1>Example: a guessing game</h1>
-    <section class="page"><h1> Guess! </h1>
+    <section class="page"><h1>  Guess!  </h1>
       <p>Congrats! You've picked up all of the basics of Ruby. There's a lot more you still have to learn, though!</p>
       <p>Here's what you've learned so far:</p>
       <p>* <code>alert</code> and <code>ask</code></p>
